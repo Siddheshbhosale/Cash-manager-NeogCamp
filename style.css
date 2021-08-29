@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    height: max(100vw,100%);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_pnAoK6xom0RNpWhRWfGg8Rg3al4SDpLdg&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(245, 201, 58);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+h1{
+    margin: 1rem auto;
+    font-family: 'Headland One', serif;
+    font-size: 3rem;
+    color: rgb(253, 152, 37);
+}
+
+p{
+    font-size: 1.2rem;
+    width: 80%;
+    margin: auto;
+    color:rgb(247, 133, 40) ;
+}
+.elements{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 2rem 0px ;
+    border-radius: px;
+    background-color:#264653;
+}
+
+label{
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+input{
+    width: 15rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgb(245, 221, 221);
+}
+button{
+    display: block;
+    margin:1rem auto;
+    width: fit-content;
+    padding: 3px 10px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    color: white;
+    background-color: transparent;
+    border-width: 3px;
+}
+button:hover{
+    transform: scale(1.2,1.2);
+}
+.bill{
+    margin: 1rem auto;
+}
+
+.output1{
+    width: fit-content;
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: yellow;
+    padding: 2px 1rem;
+}
+
+/* table */
+.output2{
+    display: none;
+}
+table{
+    max-width: 80%;
+    height: 2rem;
+    margin: 1rem auto;
+    table-layout:auto;
+    border-spacing: 0.5rem;
+    border-color:#23746a;
+    background-color:var(--btn);
+    text-align: center;
+}
+
+th{
+    padding: 0.7rem 0.7rem;
+    font-size: 1.2rem;
+    background-color: #2a9d8f;
+    color: white;
+    width: fit-content;
+}
+th:first-child{
+    color: red;
+}
+
+.noOfNotes{
+    font-weight: bold;
+    color: white;
+}
+
+footer{
+    background-color: #59b3e7;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+    margin: 0.5rem;
+}
+footer .link{
+    color: blue;
+    font-size: 3rem;
+}
+footer ul{
+   padding-inline-start: 0px;
+   display: inline;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+    margin: 1rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+}

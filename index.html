@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Cash_Manager</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="elements">
+            <h1>Cash Register Manager</h1>
+            <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+            <div class="bill">
+                <label for="billAmt" class="label">Bill Amount</label>
+                <input type="number" id="billAmt">
+            </div>
+
+            <div class="cash">
+                <label for="cashGiven" class="label">Cash Given</label>
+                <input type="number" id="cashGiven">
+                <button id="submitBtn">Submit</button>
+            </div>
+        
+        <div class="Output">
+                <div class="output1">
+                    
+                </div>
+                <div class="output2">
+                    <table>
+                        <tr class="thead">
+                            <th>Denomination</th> 
+                            <th>2000</th>
+                            <th>500</th>
+                            <th>100</th>
+                            <th>20</th>
+                            <th>10</th>
+                            <th>5</th>
+                            <th>1</th>
+                            <!-- <th>No. of Notes</th> -->
+                        </tr>
+                        <tr class="thead">
+                            <th class="noOfNotes">No. of Notes</th>
+                            <th class="noOfNotes"></th>
+                            <th class="noOfNotes"></th>
+                            <th class="noOfNotes"></th>
+                            <th class="noOfNotes"></th>
+                            <th class="noOfNotes"></th>
+                            <th class="noOfNotes"></th>
+                            <th class="noOfNotes"></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-header">Connect with me on
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link fab fa-linkedin-in" href="https://www.linkedin.com/in/siddheshbhosale/" target="_blank"></a></li>
+            <li class="list-item-inline"><a class="link fab fa-github" href="https://github.com/Siddheshbhosale" target="_blank"></a></li>
+            <li class="list-item-inline"><a class="link fab fa-twitter" href="#" target="_blank"></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
